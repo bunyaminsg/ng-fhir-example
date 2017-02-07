@@ -1,3 +1,24 @@
-<h1>
-  {{title}}
-</h1>
+<h2>Conformance Result</h2>
+<pre>
+  {{stringify(conformance)}}
+</pre>
+<h2>History Result</h2>
+<pre>
+  {{stringify(history)}}
+</pre>
+<h2>Resource History Result for Patient/1707</h2>
+<pre>
+  {{stringify(resourceHistory)}}
+</pre>
+<h2>Search Results</h2>
+<pre *ngFor="let patient of patients">
+  {{stringify(patient)}}
+</pre>
+<h2>Read Result</h2>
+<pre>
+  {{stringify(condition)}}
+</pre>
+<h2>Create Response</h2>
+<pre>
+  {{stringify(createResponse)}}
+</pre>
