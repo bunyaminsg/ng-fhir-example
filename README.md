@@ -1,5 +1,18 @@
 # NgFhirExample
 
+Don't forget to install npm packages with
+```
+npm install
+```
+
+## Build/Serve with Angular-Cli
+
+If you don't have angluar-cli, use the command below to install it:
+
+```
+sudo npm install -g angular-cli
+```
+
 This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.25.5.
 
 ## Development server
